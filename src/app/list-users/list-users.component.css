@@ -1,0 +1,9 @@
+.toolbar-header span {
+    margin: auto;
+}
+
+.mat-elevation-z8 {
+    width: 100%;
+    max-width: 70rem;
+    margin: 1em auto;
+}
