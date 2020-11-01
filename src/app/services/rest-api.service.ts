@@ -11,17 +11,17 @@ export class RestApiService {
 
   // FIELDS
 
-  private apiUrl: string;
+  private url: string;
 
   // CONSTRUCTOR
 
   constructor(private httpClient: HttpClient) {
-    this.apiUrl = 'https://jsonplaceholder.typicode.com/users';
+    this.url = 'https://jsonplaceholder.typicode.com/users';
   }
 
   // HELPER FUNCTIONS
 
-  getUsers(): Observable<User[]> {
-    return this.httpClient.get<User[]>(this.apiUrl);
+  public getUsers(): Observable<User[]> {
+    return this.httpClient.get<User[]>(this.url);
   }
 }

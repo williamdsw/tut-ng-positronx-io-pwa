@@ -1,3 +1,4 @@
+
 .toolbar-header span {
     margin: auto;
 }
@@ -6,4 +7,10 @@
     width: 100%;
     max-width: 70rem;
     margin: 1em auto;
+}
+
+.table-header {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 2px dotted gainsboro;
 }

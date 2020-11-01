@@ -13,23 +13,29 @@ import { RestApiService } from './../services/rest-api.service';
 })
 export class ListUsersComponent implements OnInit, OnDestroy {
 
-  // FIELDS
+  // Fields
 
-  private data: User[];
+  public pageSizeOptions: number[] = [5, 10, 20];
+  private data: User[] = [];
   public cols: string[] = ['id', 'name', 'email', 'website'];
-  //public dataSource = new MatTableDataSource<User>(this.data);
-  public dataSource = new MatTableDataSource<User>();
-  @ViewChild (MatSort, { static: true }) sort: MatSort;
-  @ViewChild (MatPaginator, { static: true }) paginator: MatPaginator;
-  private subscribed: Subscription;
-  // CONSTRUCTORS
+  public dataSource = new MatTableDataSource<User>(this.data);
+
+  @ViewChild (MatSort, { static: true })
+  private sort: MatSort;
+
+  @ViewChild (MatPaginator, { static: true })
+  private paginator: MatPaginator;
+
+  private subscription$: Subscription;
+
+  // Constructors
 
   constructor(private restApiService: RestApiService) { }
 
-  // LIFE CYCLE HOOKS
+  // Life Cycle Hooks
 
   ngOnInit() {
-    this.subscribed = this.restApiService.getUsers ().subscribe (
+    this.subscription$ = this.restApiService.getUsers ().subscribe (
       response => {
         this.data = response;
         this.dataSource = new MatTableDataSource<User>(this.data);
@@ -42,6 +48,6 @@ export class ListUsersComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscribed.unsubscribe ();
+    this.subscription$.unsubscribe ();
   }
 }

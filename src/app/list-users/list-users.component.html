@@ -1,39 +1,64 @@
+
 <!-- toolbar -->
 <mat-toolbar color="accent" class="toolbar-header">
-    <span> Angular PWA Example </span>
+    <header>
+        <h1> Angular PWA Example </h1>
+    </header>
 </mat-toolbar>
 
-<div class="mat-elevation-z8">
+<main>
+    <article class="mat-elevation-z8">
 
-    <mat-table [dataSource]="dataSource" matSort>
+        <header class="table-header">
+            <h2> Users </h2>
+        </header>
 
-        <!-- position -->
-        <ng-container matColumnDef="id">
-            <mat-header-cell *matHeaderCellDef mat-sort-header> # </mat-header-cell>
-            <mat-cell *matCellDef="let element;"> {{ element.id }} </mat-cell>
-        </ng-container>
-
-        <!-- name -->
-        <ng-container matColumnDef="name">
-            <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
-            <mat-cell *matCellDef="let element;"> {{ element.name }} </mat-cell>
-        </ng-container>
-
-        <!-- email -->
-        <ng-container matColumnDef="email">
-            <mat-header-cell *matHeaderCellDef mat-sort-header> Email </mat-header-cell>
-            <mat-cell *matCellDef="let element;"> {{ element.email }} </mat-cell>
-        </ng-container>
-
-        <!-- website -->
-        <ng-container matColumnDef="website">
-            <mat-header-cell *matHeaderCellDef mat-sort-header> Website </mat-header-cell>
-            <mat-cell *matCellDef="let element;"> {{ element.website }} </mat-cell>
-        </ng-container>
-
-        <!-- *matHeaderRowDef = define cabecalhos de acordo com array de string -->
-        <mat-header-row *matHeaderRowDef="cols"></mat-header-row>
-        <mat-row *matRowDef="let row; columns: cols;"></mat-row>
-    </mat-table>
-    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
-</div>
+        <mat-table [dataSource]="dataSource" matSort>
+    
+            <!-- position -->
+            <ng-container matColumnDef="id">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> 
+                    # 
+                </mat-header-cell>
+                <mat-cell *matCellDef="let element;"> 
+                    {{ element.id }} 
+                </mat-cell>
+            </ng-container>
+    
+            <!-- name -->
+            <ng-container matColumnDef="name">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> 
+                    Name 
+                </mat-header-cell>
+                <mat-cell *matCellDef="let element;"> 
+                    {{ element.name }} 
+                </mat-cell>
+            </ng-container>
+    
+            <!-- email -->
+            <ng-container matColumnDef="email">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> 
+                    Email 
+                </mat-header-cell>
+                <mat-cell *matCellDef="let element;"> 
+                    {{ element.email }} 
+                </mat-cell>
+            </ng-container>
+    
+            <!-- website -->
+            <ng-container matColumnDef="website">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> 
+                    Website 
+                </mat-header-cell>
+                <mat-cell *matCellDef="let element;"> 
+                    {{ element.website }} 
+                </mat-cell>
+            </ng-container>
+    
+            <!-- *matHeaderRowDef = define cabecalhos de acordo com array de string -->
+            <mat-header-row *matHeaderRowDef="cols"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: cols;"></mat-row>
+        </mat-table>
+        <mat-paginator [pageSizeOptions]="pageSizeOptions" showFirstLastButtons></mat-paginator>
+    </article>
+</main>
