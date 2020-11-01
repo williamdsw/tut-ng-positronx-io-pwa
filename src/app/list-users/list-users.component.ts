@@ -17,7 +17,8 @@ export class ListUsersComponent implements OnInit, OnDestroy {
 
   private data: User[];
   public cols: string[] = ['id', 'name', 'email', 'website'];
-  public dataSource = new MatTableDataSource<User>(this.data);
+  //public dataSource = new MatTableDataSource<User>(this.data);
+  public dataSource = new MatTableDataSource<User>();
   @ViewChild (MatSort, { static: true }) sort: MatSort;
   @ViewChild (MatPaginator, { static: true }) paginator: MatPaginator;
   private subscribed: Subscription;
