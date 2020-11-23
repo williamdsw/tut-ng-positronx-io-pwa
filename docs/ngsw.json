@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1606143330842,
+  "index": "https://williamdsw.github.io/tut-ng-positronx-io-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/favicon.ico",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/index.html",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/main-es2015.d053f4a62734159fb5b3.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/main-es5.d053f4a62734159fb5b3.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/manifest.webmanifest",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/polyfills-es2015.ba78947c8b103ff9cbd4.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/polyfills-es5.7c4c65028d9f3f5ab1a9.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/runtime-es2015.681bd8a4edb177c86959.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/runtime-es5.681bd8a4edb177c86959.js",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/styles.def7326844a1ed8115c9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-128x128.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-144x144.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-152x152.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-192x192.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-384x384.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-512x512.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-72x72.png",
+        "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/index.html": "24be50f733d2eb3d344f24a2bbfdc21ca7a903cc",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/main-es2015.d053f4a62734159fb5b3.js": "3d3ef5fa1cebc43e7bb97b85c62df78742a8443d",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/main-es5.d053f4a62734159fb5b3.js": "156937e0b09b303f999af9ab14fdd8bf7ec006b7",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/manifest.webmanifest": "45197121a2cb9d3dc52745a429248aee0034b6ca",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/polyfills-es2015.ba78947c8b103ff9cbd4.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/polyfills-es5.7c4c65028d9f3f5ab1a9.js": "214f4b46e6da9fadd1fae2439f1791ee1ad0f563",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/runtime-es2015.681bd8a4edb177c86959.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/runtime-es5.681bd8a4edb177c86959.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://williamdsw.github.io/tut-ng-positronx-io-pwa/styles.def7326844a1ed8115c9.css": "30934660499e217c336be443360bb4a6561b811a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
